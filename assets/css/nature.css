@@ -1,0 +1,393 @@
+
+body{
+
+    background-color: rgba(60, 9, 108, 0.939);
+}
+
+
+.grid_area{
+
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+h1{
+
+    font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  
+
+   
+}
+
+h1:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+
+
+.row{
+
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "box1 box2 box3 box4 box4 box5 box6" 
+                         "box7 box7 box3 box8 box9 box9 box6"
+                         "box7 box7 box10 box10 box11 box12 box13"
+                         "box15 box15 box10 box10 box11 box16 box16"
+                         "box17 box18 box19 box19 box20 box21 box21"
+                         "box22 box22 box23 box24 box25 box25 box25" 
+    
+    
+    
+    
+    ;
+    grid-gap: 10px;
+
+    margin-top: 100px;
+}
+
+.box1{
+
+    background-color: aqua;
+    grid-area: box1;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=d884b43240eba23251093358df3036380ec43aa8d5701989-4420863-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box2{
+
+    background-color: aqua;
+    grid-area: box2;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=78e86590faa9a2effa19b278080a9bcf82bada7b-10928869-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+    
+}
+
+.box3{
+
+    background-color: aqua;
+    grid-area: box3;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=8f01165543ee9b0aa28bdbdc3785d0a6-5311044-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box4{
+
+    background-color: aqua;
+    grid-area: box4;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=4ffa098d051e4dc7c0a81a3827019eb99ce71e56-4032389-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box5{
+
+    background-color: aqua;
+    grid-area: box5;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=fb40656e39d49101b0795bdd2836327f08f0bc90102a2565-12640484-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box6{
+
+    background-color: aqua;
+    grid-area: box6;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=ed6aeb4d18154a5fb1d97d6bdca33ec7e7d57eb8-8257645-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box7{
+
+    background-color: aqua;
+    grid-area: box7;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=e9eb949e9e16427ea6d11b8c5e6535c7dcc0570d-10577131-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box8{
+
+    background-color: aqua;
+    grid-area: box8;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=bf4858c0b7247063ede634eb1765a8dd2b493b81-4722903-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box9{
+
+    background-color: aqua;
+    grid-area: box9;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=b688551a0b70a6c3526f6131947048fd658afe6d-9050465-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box10{
+
+    background-color: aqua;
+    grid-area: box10;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=1c49ce2663e45abda48b10450c520a74a471b660-5232193-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box11{
+
+    background-color: aqua;
+    grid-area: box11;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=37cc6392620da8c80126df384a806c8eda037c58-12424074-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box12{
+
+    background-color: aqua;
+    grid-area: box12;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=5bd953ebdba36422b24d7f285a9b758dc58b1f38-7548535-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box13{
+
+    background-color: aqua;
+    grid-area: box13;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=9168d4db1bde6327e696b239b3ded9827fae64b4-13273717-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box14{
+
+    background-color: aqua;
+    grid-area: box4;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=c51770eacc7e39b6ba1188d93524a86752a7a017-8769045-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box15{
+
+    background-color: aqua;
+    grid-area: box15;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=725a04101bc333e8a40e83102b22473c660d11b9-8307637-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box16{
+
+    background-color: aqua;
+    grid-area: box16;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=5fc9d00e4487de7dbd427a2037d396928e6b197c-4234358-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box17{
+
+    background-color: aqua;
+    grid-area: box17;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=81e82026ef90ae71c2dd27cfbbb71d3ab1c847d0-4398781-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box18{
+
+    background-color: aqua;
+    grid-area: box18;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=e912e3a2636ab16e851e3af52aa78aec8dc30d19-5858460-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box19{
+
+    background-color: aqua;
+    grid-area: box19;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=1cb9cc9ac713b6dc72abcb30a0f9aff91ce73cee-4614943-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box20{
+
+    background-color: aqua;
+    grid-area: box20;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=b5cc8f0533ae385fd003a2d0ac293bb0ebc4e0fa-10878212-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box21{
+
+    background-color: aqua;
+    grid-area: box21;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=a9b0f03b42a3cfb18786d1dd0f971b5356a3a7e0-5545648-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box22{
+
+    background-color: aqua;
+    grid-area: box22;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=98a7228c9f4094f1859e6f897bcefc07c47fa081-12752873-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+
+.box23{
+
+    background-color: aqua;
+    grid-area: box23;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=9bac1836ed02cdab59f2086e4cfdc826b4b40146-5858181-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box24{
+
+    background-color: aqua;
+    grid-area: box24;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=5ab58c13947126885ecfc9436b8651b5592a273b-5887629-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+
+}
+
+.box25{
+
+    background-color: aqua;
+    grid-area: box25;
+    border-radius: 10px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=96f7acb9bd6df8095a61a5fe7125ae459665f764-13233258-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 234, 255, 0.25) 0px 0.125em 0.5em, rgba(0, 242, 255, 0.1) 0px 0px 0px 1px inset;
+}
+

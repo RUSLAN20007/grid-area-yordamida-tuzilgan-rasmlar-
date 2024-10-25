@@ -1,0 +1,156 @@
+.row {
+
+
+    width: 2300px;
+    height: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: "box1 box1 box2 box3 box4 box4 "
+                         "box1 box1 box2 box5 box6 box7  "
+                         "box8 box8 box9 box5 box10 box10"
+                         "box11 box12 box9 box13 box10 box10"
+                         
+    
+    ;
+}
+
+img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+
+    grid-area: box1;
+    background-color: aqua;
+}
+
+
+.box2 {
+
+    grid-area: box2;
+    background-color: rgb(0, 255, 162);
+
+}
+
+
+.box3 {
+
+    grid-area: box3;
+    background-color: rgb(0, 123, 255);
+    height: 300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=fa4e93c43df5a6a1a8bc8874bd4f7da780de966e-12529777-images-thumbs&n=13);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+
+}
+
+
+
+.box4 {
+
+    grid-area: box4;
+    background-color: rgb(255, 0, 200);
+    height: 300px;
+  
+    
+    
+
+}
+
+.box5 {
+
+    grid-area: box5;
+    background-color: rgb(255, 0, 0);
+    
+
+}
+
+.box6 {
+
+    grid-area: box6;
+    background-color: rgb(166, 255, 0);
+    height: 300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=72a047cf209f15375ab73309bf804b37cb016d35-7751470-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box7 {
+
+    grid-area: box7;
+    background-color: rgb(255, 98, 0);
+    height: 300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=0248f94fe4b082958ea6e16a9aedc1e9f63939aa-10837749-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.box8 {
+
+    grid-area: box8;
+    background-color: rgb(110, 110, 110);
+
+}
+
+
+.box9 {
+
+    grid-area: box9;
+    background-color: rgb(242, 0, 255);
+   
+}
+
+
+.box10 {
+
+    grid-area: box10;
+    background-color: rgb(0, 255, 157);
+
+}
+
+.box11 {
+
+    grid-area: box11;
+    background-color: rgb(119, 0, 255);
+    height: 300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=f7736b9416edab667926089c7381f978b7df1ac6-8264494-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box12 {
+
+    grid-area: box12;
+    background-color: rgb(196, 91, 22);
+    height: 300px;
+    background-image: url(https://avatars.mds.yandex.net/i?id=d6ba5bf99c3201c42ec1bf86abc46b7f83c91f57-9215233-images-thumbs&ref=rim&n=33&w=314&h=250);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.box13 {
+
+    grid-area: box13;
+    background-color: rgb(255, 139, 184);
+    background-image: url(https://avatars.mds.yandex.net/i?id=ade9547f70d2f54f0f5e0f7b89b079276e39b5d5-9856874-images-thumbs&ref=rim&n=33&w=212&h=250);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

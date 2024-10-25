@@ -1,0 +1,131 @@
+.row {
+
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "box1 box2 box3 box3"
+        "box1 box4 box5 box6"
+        "box7 box4 box8 box8"
+    ;
+    grid-gap: 20px;
+    margin-top: 100px;
+    
+}
+
+.box1 {
+
+    grid-area: box1;
+    background-image: url(https://avatars.mds.yandex.net/i?id=cad5ff065b5ae79e35756747ddc7a732d66462b0-9098303-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.box2 {
+
+    grid-area: box2;
+    background-image: url(https://avatars.mds.yandex.net/i?id=d25426c5808caeac546899307619188ccd434427-5879172-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box3 {
+
+    grid-area: box3;
+    background-image: url(https://avatars.mds.yandex.net/i?id=da197d25c0be0effc2a910ec65f67d5ec0f105c4-5353579-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box4 {
+
+    grid-area: box4;
+    background-image: url(https://avatars.mds.yandex.net/i?id=1cf5c85993db9b114977d49c1b89ce1cc55e8515-5234477-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box5 {
+
+    grid-area: box5;
+    background-image: url(https://avatars.mds.yandex.net/i?id=72d80514cc4b68a228ed626f0031dfa9-4344700-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box6 {
+
+    grid-area: box6;
+    background-image: url(https://avatars.mds.yandex.net/i?id=1978b3111cca2578f3d3aef49c5468d1fc97f758-4937498-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box7 {
+
+    grid-area: box7;
+    background-image: url(https://avatars.mds.yandex.net/i?id=6d413cd6a92d1c36997c18b77b429288a23d4186-10125837-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+}
+
+
+.box8 {
+
+    grid-area: box8;
+    background-image: url(https://avatars.mds.yandex.net/i?id=bdec77412ac3d9d33c6549716930b197837fe2f4-10307609-images-thumbs&n=13);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+.animatsiya{
+
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+.animatsiya:hover{
+
+    transform: rotateY(10);
+}
